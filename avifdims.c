@@ -177,8 +177,7 @@ int main(int argc, char **argv) {
   fclose(f);
 
   if (ctx.found_ispe || ctx.width > 0) {
-    printf("Width: %u\n", ctx.width);
-    printf("Height: %u\n", ctx.height);
+    printf("w:%u h:%u\n", ctx.width, ctx.height);
     return 0;
   }
 
